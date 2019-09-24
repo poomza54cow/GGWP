@@ -14,7 +14,7 @@ const LED_TOPIC = `/ESP/LED`;
 // Create a MQTT Client
 const mqtt = require('mqtt');
 // Create a client connection to CloudMQTT for live data
-const client = mqtt.connect('soldier.cloudmqtt.com',  // Server MQTT ของเรานะ
+const client = mqtt.connect('soldier.cloudmqtt.com'),  // Server MQTT ของเรานะ
 {
   username: 'uumiczri', // Username MQTT ของเรานะ
   password: '	4bF40hfXlXH6', // Password MQTT ของเรานะ
